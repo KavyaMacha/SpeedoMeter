@@ -1,0 +1,74 @@
+/* Write your CSS here */
+/* index.css */
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.heading {
+  font-size: 32px;
+  color: #07080c;
+  margin-bottom: 16px;
+}
+
+.image {
+  width: 200px;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.speed {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 16px;
+}
+
+.description {
+  font-size: 18px;
+  color: #666666;
+  margin-bottom: 24px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  outline: none;
+}
+
+.accelerate {
+  background-color: #0b69ff;
+  color: #ffffff;
+}
+
+.brake {
+  background-color: #94a3b8;
+  color: #ffffff;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
